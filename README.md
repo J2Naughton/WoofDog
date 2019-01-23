@@ -42,8 +42,8 @@ This files interpretations are as follows:
   * p2_conf is how confident the algorithm is in its #2 prediction → 1%
   * p2_dog is whether or not the #2 prediction is a breed of dog → TRUE
   
-Key Points
-Key points to keep in mind when data wrangling for this project:
+### Key Points
+### Key points to keep in mind when data wrangling for this project:
 
 We only want original ratings (no retweets) that have images. Though there are 5000+ tweets in the dataset, not all are dog ratings and some are retweets.
 Assessing and cleaning the entire dataset completely would require a lot of time, and is not necessary to practice and demonstrate your skills in data wrangling. Therefore, the requirements of this project are only to assess and clean at least 8 quality issues and at least 2 tidiness issues in this dataset.
@@ -52,7 +52,7 @@ The fact that the rating numerators are greater than the denominators does not n
 You do not need to gather the tweets beyond August 1st, 2017. You can, but note that you won't be able to gather the image predictions for these tweets since you don't have access to the algorithm used.
 
 
-## Files handed on this project are as follows:
+### Files handed on this project are as follows:
 wrangle_act.ipynb: code for gathering, assessing, cleaning, analyzing, and visualizing data
 wrangle_report.pdf: documentation for data wrangling steps: gather, assess, and clean
 act_report.pdf: documentation of analysis and insights into final data
